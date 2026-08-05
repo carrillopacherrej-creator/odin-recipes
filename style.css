@@ -1,6 +1,4 @@
-.alert-text{
-    color:red;
-}
-#main-title{
-    background-color:yellow
+#main-title,.alert-text{
+background-color:yellow;
+color:red;
 }
