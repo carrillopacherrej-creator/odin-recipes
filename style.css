@@ -1,8 +1,22 @@
 #main-title,.alert-text{
-background-color:yellow;
-color:red;
+background-color:#f7d347; /*    Un amarillo dorado mas agradable */
+color: rgb(192, 41, 43); /* Un rojo oscuro elegante */
 }
 .recipe-link.highlight{
     color:orange;
     font-weight:bold;
+}
+body{
+    font-family: Arial,Helvetica, sans-serif; /* cambia toda la letra de la pagina */    
+}
+
+#main-title{
+    font-size: 32px;    /*Agranda el titulo */
+    font-weight: bold; /*Lo pone en negrita*/
+    text-align: center; /*Lo centra en la pantalla*/
+}
+
+img {
+    width: 300px; /*controla el anch de todas tus fotos */
+    height: auto; /*Mantiene las proporciones para que no se deformen */
 }
